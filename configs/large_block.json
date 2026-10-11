@@ -1,0 +1,42 @@
+{
+  "pulse_rate_hz": 100000000,
+  "duration_s": 10.0,
+  "frame_s": 0.01,
+  "signal_gain": 0.002,
+  "dark_gain": 2e-06,
+  "basis_match_probability": 0.5,
+  "readout_flip": 0.001,
+  "q0": 0.035,
+  "family_alpha": 0.01,
+  "methods": [
+    "end_block",
+    "disjoint",
+    "sliding_multiscale",
+    "cusum",
+    "fixed_mixture",
+    "adaptive_mixture"
+  ],
+  "audit_probability": 0.05,
+  "audit_epsilon": 0.001,
+  "monitor_low": 0.02,
+  "monitor_high": 0.12,
+  "ewma_weight": 0.15,
+  "suspicion_qber": 0.028,
+  "feedback_delay_frames": 2,
+  "alternative_qbers": [
+    0.05,
+    0.09,
+    0.18
+  ],
+  "disjoint_frames": 10,
+  "sliding_frames": [
+    5,
+    25,
+    100
+  ],
+  "calibration_replicates": 5999,
+  "holdout_null_replicates": 2000,
+  "evaluation_replicates": 400,
+  "pilot_replicates": 100,
+  "seed": 2026101102
+}

@@ -1,0 +1,58 @@
+{
+  "plan": {
+    "durations_ms": [
+      20,
+      50,
+      80,
+      100,
+      150,
+      200,
+      300,
+      500
+    ],
+    "fractions": [
+      0.06,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.35,
+      0.5
+    ],
+    "map_onset_s": 3.0,
+    "map_replicates": 400,
+    "attacker_onsets_s": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0
+    ],
+    "attacker_duration_ms": 100,
+    "attacker_fraction": 0.25,
+    "attacker_training_replicates": 200,
+    "attacker_evaluation_replicates": 1000,
+    "seed": 2026101103
+  },
+  "fixed_monitor_probability": 0.0332158435788767,
+  "thresholds": {
+    "adaptive": 4.734872102883274,
+    "fixed": 6.238511547781144
+  },
+  "analytic_log_threshold": 6.396929655216146,
+  "per_method_alpha": 0.0016666666666666668,
+  "attacker_selected_onsets": {
+    "fixed": 4.0,
+    "adaptive": 5.0
+  },
+  "elapsed_seconds": 51.532326599932276,
+  "qiskit_max_discrepancy": 5.290906601729262e-16,
+  "trace_provenance": "Synthetic OU residual polarization and log-gain trace; no experimental fit",
+  "security_status": "NO QKD SECRECY PROOF; classical conditional error-bound monitoring only; certified_secret_key_bits is null",
+  "family_note": "0.01/6 per method; empirical and analytic are separate decision modes and are not OR combined",
+  "map_note": "Fixed 3.3216% monitoring reference across all cells; adaptive reveal cost varies and is reported. Map onset fixed at 3 s; one synthetic drift realization.",
+  "source_calibration": "Frozen calibration maxima in calibration/ (derived from the version 2 study); unchanged policy and null models. No attack outcomes fit thresholds."
+}

@@ -1,0 +1,22 @@
+{
+  "n_emitted": 12000,
+  "replicates": 160,
+  "seed": 20261011,
+  "transmission": 0.7,
+  "readout_flip": 0.003,
+  "q0": 0.05,
+  "alpha": 0.01,
+  "audit_probability": 0.20,
+  "audit_epsilon": 0.001,
+  "monitor_probability": 0.25,
+  "adaptive_high_probability": 0.65,
+  "suspicion_threshold": 0.065,
+  "ewma_rate": 0.04,
+  "warmup_tests": 30,
+  "stride": 25,
+  "alternatives": [0.10, 0.18, 0.28],
+  "window": 100,
+  "block": 250,
+  "matched_budget_pilot_replicates": 20,
+  "aer_validation_shots": 16000
+}
