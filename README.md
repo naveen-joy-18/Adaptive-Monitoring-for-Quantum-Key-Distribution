@@ -1,4 +1,4 @@
-# Adaptive QKD monitoring — Qiskit research prototype
+# Adaptive QKD monitoring - Qiskit research prototype
 
 Runnable simulation package for time-resolved BB84 channel monitoring under
 nonstationary errors: an exact Qiskit channel engine, Aer shot validation,
